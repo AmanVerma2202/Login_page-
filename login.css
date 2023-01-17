@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora', serif;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top right,rgb(208, 248, 232),rgb(103, 219, 252));
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffff09;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px grey;
+}
+.sign-up h1{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.sign-up p{
+    font-size: 0.8rem;
+    color: rgb(62, 61, 61);
+}
+.body{
+    margin: 20px 0;
+
+}
+
+.body p{
+    margin: 15px 0;
+}
+
+.body p input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(53, 52, 52);
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.body p input[type="submit"]{
+    background-color: rgb(40, 98, 244);
+    border: none;
+    color: aliceblue !important;
+}
+
+
+.body p input[type="submit"]:hover{
+    background-color: rgb(13, 49, 139);
+}
+
+.signup-footer p{
+    color: rgb(61, 61, 61);
+    text-align: center;
+
+}
+.signup-footer p a{
+    color: rgb(34, 8, 164);
+    text-decoration: none;
+
+}
