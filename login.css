@@ -11,7 +11,7 @@ body{
 .outer-box{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top right,rgb(208, 248, 232),rgb(103, 219, 252));
+    background: linear-gradient(to top right,rgb(212, 243, 230),rgb(192, 237, 249));
 }
 .inner-box{
     width: 400px;
